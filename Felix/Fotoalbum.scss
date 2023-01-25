@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1vh;
-    background-image: linear-gradient(darkblue, lightblue);
+    // background-image: linear-gradient(darkblue, lightblue);
 }
 
 #container img {
@@ -16,7 +16,7 @@
 }
 
 #container div {
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 @import "mediaquery";
