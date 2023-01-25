@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: lightblue;
+    height: 13vh;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: left;
+}
+
+nav a {
+    color: white;
+    font-size: 2.8vh;
+    width: 8%;
+    text-align: end;
+    padding-right: 3vh;
+    text-decoration: none;
+    &:hover {
+        color: cornflowerblue;
+        transition: color 2s;
+    }
+}
+
+#logo {
+    height: 10vh;
+    border-radius: 9vh;
+    display: flex;
+    align-self: center;
+    margin-right: 3vh;
+    margin-left: 3vh;
+}
+
+body {
+    background-image: url(./Tesla\ Picture.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#placeholder {
+    height: 13vh;
+}
+
+#site-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#site-content h1 {
+    color: lightblue;
+    font-size: 10vh;
+    margin-top: 13vh;
+    margin-right: 60vh;
+}
+
+#site-content h3 {
+    color: lightblue;
+    font-size: 4vh;
+    margin-right: 60vh;
+    margin-top: 2vh;
+}
+
+footer {
+    background-color: gray;
+    height: 12vh;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(grey, lightgrey);
+}
+
+footer h1 {
+    padding-top: 3vh;
+    color: lightblue;
+    font-size: 6vh;
+}
